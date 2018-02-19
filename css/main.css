@@ -1,26 +1,26 @@
 html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 audio,
@@ -29,29 +29,116 @@ iframe,
 img,
 svg,
 video {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
 
 /* ==========================================================================
-   Camilo's custom styles
+   custom styles
    ========================================================================== */
+
+.d-flex {
+  display: flex;
+}
+
+.flex-justify-between {
+  justify-content: space-between;
+}
+
+.flex-auto {
+  flex: 1 1 auto;
+}
+
+.svg-inline--fa {
+  color: #fff;
+  font-size: 2rem;
+}
+
+main {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 154px 110px 1fr;
+}
+
+header {
+  background-color: #2b2b2b;
+}
+
+nav {
+  justify-content: flex-start;
+}
+
+.card-header h2 {
+  color: #575757;
+  font-weight: 500;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+.menu {
+  justify-content: flex-end;
+  padding: .5rem 2rem 0;
+}
+
+.menu svg {
+  margin: 10px 10px 0;
+}
+
+.navigation svg {
+  font-size: 1rem;
+  margin: 0 1rem 0 0;
+}
+
+.navigation li {
+  /*display: inline-block;*/
+  margin: 0 0.5em;
+  /*text-decoration: none;*/
+}
+
+.navigation li a {
+  display: block;
+  padding: 1em 0.5em;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #9a9a9a;
+}
+
+.navigation li a.active {
+  color: #fff;
+}
+
+nav img {
+  height: 50px;
+  margin: 1em 0;
+}
+
+.logo {
+  padding: .5rem 2rem 0 0;
+}
+
+main {
+  background-color: #efefef;
+}
+
+.synergy-blue {
+  color: #25b5fc;
+}
 
 /* ==========================================================================
    Media Queries
@@ -89,45 +176,45 @@ textarea {
    ========================================================================== */
 
 .hidden {
-    display: none !important;
-    visibility: hidden;
+  display: none !important;
+  visibility: hidden;
 }
 
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
 }
 
 .invisible {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 .clearfix {
-    *zoom: 1;
+  *zoom: 1;
 }
