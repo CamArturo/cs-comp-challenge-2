@@ -70,8 +70,13 @@ textarea {
   font-size: 2rem;
 }
 
+.synergy-blue {
+  color: #25b5fc;
+}
+
 main {
-  height: 100vh;
+  background-color: #efefef;
+  /*height: 100vh;*/
   display: grid;
   grid-template-rows: 154px 110px 1fr;
 }
@@ -128,16 +133,78 @@ nav img {
   margin: 1em 0;
 }
 
-.logo {
+.logo-container {
   padding: .5rem 2rem 0 0;
 }
 
-main {
-  background-color: #efefef;
+.cards {
+  flex-wrap: wrap;
 }
 
-.synergy-blue {
+.card-header {
+  align-items: center;
+}
+
+.cards__card {
+  width: 280px;
+  /*height: 400px;*/
+  border: 1px solid #ccc;
+  margin: 1rem;
+  display: grid;
+  grid-template-rows: 144px 70px 50px 136px;
+  -webkit-box-shadow: 0 0 3px 3px rgba(200, 200, 200, 1);
+  -moz-box-shadow: 0 0 3px 3px rgba(200, 200, 200, 1);
+  box-shadow: 0 0 3px 3px rgba(200, 200, 200, 1);
+}
+
+.cards__card--header-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cards__card--header-image svg {
+  margin: 1rem 0 0 1rem;
   color: #25b5fc;
+  background-color: rgba(136, 136, 136, 0.75);
+  border-radius: 5px;
+}
+.card-1 {
+  background-image: url("../img/1-idiotic-stock.jpg");
+}
+
+.card-2 {
+  background-image: url("../img/2-idiotic-stock.jpg");
+
+}
+
+.card-3 {
+  background-image: url("../img/3-idiotic-stock.jpg");
+
+}
+
+.card-4 {
+  background-image: url("../img/9-idiotic-stock.jpg");
+
+}
+
+.card-5 {
+  background-image: url("../img/10-idiotic-stock.jpg");
+
+}
+
+.card-6 {
+  background-image: url("../img/6-idiotic-stock.jpg");
+
+}
+
+.card-7 {
+  background-image: url("../img/7-idiotic-stock.jpg");
+
+}
+
+.card-8 {
+  background-image: url("../img/8-idiotic-stock.jpg");
+
 }
 
 /* ==========================================================================
