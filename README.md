@@ -1,6 +1,6 @@
 # Comp Challenge 2
 
-The static comp challenge is a series of three challenges to keep you working that HTML/CSS muscle. :muscle: You will be asked to recreate a static comp, with each growing in complexity. For each challenge, you’ll be given a static comp and asked to recreate it. Don’t worry, we’ll give you a bit of creative license, however the objective is to build something that respects the integrity of the original design. Once you get into the workforce - building out comps that reflect the designer’s choice in layout, spacing, font, imagery, and color to the smallest detail is a requirement.
+The static comp challenge is a series of three challenges to keep you working that HTML/CSS muscle. You will be asked to recreate a static comp, with each growing in complexity. For each challenge, you’ll be given a static comp and asked to recreate it. Don’t worry, we’ll give you a bit of creative license, however the objective is to build something that respects the integrity of the original design. Once you get into the workforce - building out comps that reflect the designer’s choice in layout, spacing, font, imagery, and color to the smallest detail is a requirement.
 
 ## Things to Note
 
@@ -14,6 +14,8 @@ We have not provided breakpoint specific comps. You will need to employ some cre
 
 
 ### My Comp is below
+
+#### Resolution 1680 x 1050
 
 ![screenshot-2018-2-28 camilo s comp challenge](https://user-images.githubusercontent.com/8752377/36811683-e191497a-1c8b-11e8-911e-2b0e079838d4.jpg)
 
